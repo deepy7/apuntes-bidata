@@ -1,0 +1,44 @@
+body { padding: 0px 0 20px 0px; margin: 0px; font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #f0e7d5; font-weight: normal; background: #252525; background-attachment: fixed !important; background: linear_gradient(#2a2a29, #1c1c1c); }
+
+h1, h2, h3, h4, h5, h6 { color: #e8e8e8; margin: 0 0 10px; font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: normal; }
+
+p, ul, ol, table, pre, dl { margin: 0 0 20px; }
+
+h1, h2, h3 { line-height: 1.1; }
+
+h1 { font-size: 28px; }
+
+h2 { font-size: 24px; }
+
+a { color: #ffcc00; font-weight: 400; text-decoration: none; }
+a:hover { color: #ffeb9b; }
+
+#google{
+  color: lightseagreen;
+}
+
+#facebook{
+  color: rgb(0, 153, 255);
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titulos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+[
+    {"nro":1,
+     "nombre":"Felix",
+     "nacimiento":"03/2023",
+     "comentario":"Llego a nosotros escapado de alguna casa"   
+    },
+    {"nro":2,
+     "nombre":"Zeus",
+     "nacimiento":"05/2023",
+     "comentario":"Es un gato muy curioso"   
+    },
+    {"nro":3,
+     "nombre":"Agata",
+     "nacimiento":"08/2022",
+     "comentario":"La jefa del equipo"   
+    }
+]

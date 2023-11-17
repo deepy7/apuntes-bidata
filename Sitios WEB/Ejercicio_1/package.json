@@ -1,0 +1,29 @@
+{
+  "name": "p5-t1-scaffolding-deepy7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server src",
+    "clean": "rm -rf dist package-lock.json node_modules",
+    "start": "parcel serve src/index.html --port 8080",
+    "build": "parcel build src/index.html --no-source-maps --detailed-report --public-url /dsi-p1-parcel-deepy7/ -d build",
+    "deploy": "npx gh-pages -d build"
+  },
+  "author": "Michael Brian Santana Mon",
+  "license": "ISC",
+  "devDependencies": {
+    "@tilecloud/mdhtml": "^0.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.2"
+  }
+}
