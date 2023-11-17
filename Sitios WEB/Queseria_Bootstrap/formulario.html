@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Creación y uso de un formulario -->
+    <article class="mx-5">
+        <div class="d-flex flex-column align-items-center">
+            <p>Ingrese la información de la Compra</p>
+            <form action="" id="formulario" class="d-flex flex-column">
+                <div class="d-flex my-3">
+                    <!-- Nombre -->
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+                    <!-- Apellidos -->
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" id="apellidos">
+                    <!-- Fecha de nacimiento -->
+                    <label for="fechaNac">Fecha de Nacimiento:</label>
+                    <input type="date" name="fechaNac" id="fechaNac">
+                </div>
+                <div class="d-flex py-3">
+                    <!-- Sexo -->
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" id="masculino" value="0">
+                    <label for="masculino">Masculino:</label>
+                    <input type="radio" name="sexo" id="femenino" value="1">
+                    <label for="femenino">Femenino:</label>
+                    <!-- CP -->
+                    <label for="cp">Código Postal:</label>
+                    <input type="number" name="cp" id="cp">
+                    <!-- Importe Comprado -->
+                    <label for="importe">Importe de la Compra:</label>
+                    <input type="number" name="importe" id="importe">
+                    <!-- Fecha Compra -->
+                    <label for="fechaCompra">Fecha de Compra:</label>
+                    <input type="date" name="fechaCompra" id="fechaCompra">
+                </div>
+                <div class="d-flex py-3">
+                    <!-- Valoración -->
+                    <label for="valoracion">Valoración:</label>
+                    <input type="number" name="valoracion" id="valoracion">
+                    <!-- Comentario -->
+                    <label for="comentario">Comentario:</label>
+                    <input type="text" name="comentario" id="comentario">
+                </div>
+            </form>
+        </div>
+    </article>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

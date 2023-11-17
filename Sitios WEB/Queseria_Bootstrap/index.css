@@ -1,0 +1,27 @@
+*
+{
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Definición de colores */
+:root
+{
+    --naranja: #C68811;
+    --verde: #238625;
+    --grisOscuro: #343434;
+}
+
+/* Naranja */
+.naranjaFrente { color:var(--naranja); }
+.naranjaFondo { background-color:var(--naranja); }
+.naranjaHover:hover { color:#C68811; }
+
+/* Verde */
+.verdeFrente { color:var(--verde); }
+.verdeFondo { background-color:var( --verde); }
+.verdeHover:hover { color: var(--verde);}
+
+/* GrisOscuro */
+.grisOscuroFrente { color:var(--grisOscuro); }
+.grisOscuroFondo { background-color:var(--grisOscuro); }

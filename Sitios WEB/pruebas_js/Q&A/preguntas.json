@@ -1,0 +1,24 @@
+[
+    { 
+        "nro":1,
+        "pregunta":"¿En qué isla vivimos? ", 
+        "respuestas": 
+        [
+            { "r":"Tenerife", "correcto":1 },
+            { "r":"Fuerteventura"},
+            { "r":"Lanzarote"},
+            { "r":"La Gomera"}
+        ]
+    },
+    {
+        "nro":2,
+        "pregunta":"¿Cuál es la isla más grande? ", 
+        "respuestas": 
+        [
+            { "r":"Tenerife", "correcto":1 },
+            { "r":"Fuerteventura"},
+            { "r":"Lanzarote"},
+            { "r":"La Gomera"}
+        ]
+    }
+]
