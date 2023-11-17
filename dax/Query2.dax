@@ -1,3 +1,0 @@
-﻿// Generated DAX Query
-EVALUATE 
-TOPN( 500, VALUES(tickets[operador]) )
